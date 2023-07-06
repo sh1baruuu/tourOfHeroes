@@ -1,6 +1,20 @@
-/* Application-wide Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+:root{
+    --primary-color: #336699;
+    --secondary-color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
 h1 {
-    color: #369;
+    color: #336699;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
 }
@@ -11,9 +25,6 @@ h2, h3 {
     font-weight: lighter;
 }
 
-body {
-    margin: 2em;
-}
 
 body, input[type="text"], button {
     color: #333;
@@ -40,12 +51,7 @@ button:hover {
 
 button:disabled {
     background-color: #eee;
-    color: #aaa;
     cursor: auto;
 }
 
 
-/* everywhere else */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
