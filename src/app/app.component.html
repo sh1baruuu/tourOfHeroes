@@ -2,7 +2,8 @@
   <img src="../assets/TOHLogo.png" alt="tourOfHeroesLogo"/>
   <a routerLink="/dashboard">Dashboard</a>
   <a routerLink="/heroes">Heroes</a>
+  <button (click)="toggleSidebar()">SHOW</button>
 </nav>
 
 <router-outlet></router-outlet>
-<app-messages></app-messages>
+<app-messages [toggle]="toggle"></app-messages>
