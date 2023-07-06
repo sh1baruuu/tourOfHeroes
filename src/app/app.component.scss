@@ -9,4 +9,14 @@ nav{
         height: 50px;
         margin-right: auto;
     }
+
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 5px;
+        color: var(--secondary-color);
+        padding: 5px 20px;
+        border: solid 1px var(--primary-color);
+        border-radius: 10px;
+    }
 }
