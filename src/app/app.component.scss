@@ -19,4 +19,13 @@ nav{
         border: solid 1px var(--primary-color);
         border-radius: 10px;
     }
+    button{
+        height: 35px;
+        width: 50px;
+        background: url(../assets/messages.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border: none;
+    }
 }
